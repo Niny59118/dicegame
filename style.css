@@ -1,0 +1,55 @@
+body{
+  border-color: #eeeeee;
+  background-image: url("images/buisson.jpg");
+  color: white;
+}
+
+
+.rounded-circle{
+  background-color:white;
+}
+
+input {
+  border: 1px black solid;
+}
+
+main{
+  text-align: center;
+}
+#borderPlayerOne{
+background-color: #70A9D4;
+width: 300px;
+height: 400px;
+text-align: center;
+border-radius: 20px;
+border-color: black;
+margin: auto;
+}
+
+#validate1, #validate2, h4, #roll, #hold, #start, #dice, #modal{
+  display: none;
+}
+
+#borderPlayerTwo{
+  background-color:#F7A0B2;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+}
+
+#buttons {
+  margin-top: 5vh;
+}
+
+
+/*media queries*/
+@media screen and (min-width:611px){
+  h3{
+  display: none;
+  }
+  h1{
+    margin-bottom:5rem;
+  }
+  }
